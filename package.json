@@ -12,9 +12,9 @@
   ],
   "main": "scripts/server",
   "scripts": {
-    "prestart": "node scripts/message",
+    "prestart": "babel-node scripts/message",
     "start": "npm-run-all --parallel security-check dev-server",
-    "dev-server": "node scripts/server",
+    "dev-server": "babel-node scripts/server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "security-check": "nsp check",
     "localtunnel": "lt --port 3000 --subdomain joyphoy",
