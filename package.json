@@ -13,12 +13,14 @@
   "main": "scripts/server",
   "scripts": {
     "security": "nsp check",
+    "share": "lt --port 3000 --subdomain joyphoy",
     "start": "node scripts/server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {},
   "devDependencies": {
     "express": "^4.14.0",
+    "localtunnel": "^1.8.2",
     "nsp": "^2.6.2",
     "open": "0.0.5"
   }
