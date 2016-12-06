@@ -6,6 +6,8 @@ import webpack from 'webpack';
 import webpackMiddleware from 'webpack-dev-middleware';
 import config from '../webpack.config.dev';
 
+/* eslint-disable no-console */
+
 dotenv.config();
 
 const port = process.env.PORT;
